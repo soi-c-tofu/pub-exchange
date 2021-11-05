@@ -1,6 +1,6 @@
-# Typescript Template for React
+# Pub Exchange
 
-[![Actions Status](https://github.com/MarkSFrancis/ts-react-template/workflows/Build/badge.svg)](https://github.com/MarkSFrancis/ts-react-template/actions)
+Pub exchange involves tracking seating avaliability to help customer pre-book table(s). Customers will be able to view number of seats available for the table and pre order food and drinks after booking table is confirmed. Based on existing pub apps which ask for customer(s) which table they are seating at after arrival, customer(s) may face a problem upon arrival that all tables are booked, customer(s) can use Pub Exchange to decide which nearest pub to go to support their group size and book a table to garuntee a table on arrival.
 
 ## Features
 
@@ -15,3 +15,20 @@
 1. Auto-lint on commit (using [lint-staged](https://github.com/okonet/lint-staged))
 1. Auto-test on push (using [husky](https://typicode.github.io/husky))
 1. Auto-update dependencies via PRs (using [Dependabot](https://dependabot.com/))
+
+## How to set up
+
+1. Open terminal on root folder
+1. Run 'yarn' to download dependencies
+
+## How to test
+
+1. Open terminal on root folder
+1. Run 'yarn test'
+1. You can also selectivity test a group of test files by appending a pattern matching those file namee by 'yarn test [INSERT_FILE_NAME_PATTERN]' e.g. 'yarn test order' will test files with order in it's name
+
+## How to run
+
+1. Open terminal on root folder
+2. run 'yarn start'
+3. In the terminal it should provide an url to view locally (usually it's[http://localhost:3000](http://localhost:3000))
