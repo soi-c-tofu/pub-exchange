@@ -1,0 +1,26 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #808080;stroke-width: 10 } 
+		.txt1 { font-size: 55px;fill: #808080;font-weight: 500;font-style: italic;font-family: "AlegreyaSC-MediumItalic", "Alegreya SC" } 
+		.txt2 { font-size: 20px;fill: #808080;font-weight: 500;font-style: italic;font-family: "AlegreyaSC-MediumItalic", "Alegreya SC" } 
+		.shp3 { fill: #808080 } 
+	</style>
+	<path id="Shape 1" class="shp0" d="M125 125L875 125L875 875L125 875L125 125Z" />
+	<text id="The  Downtrend since 2021 " style="transform: matrix(1,0,0,1,319,604)" >
+		<tspan x="-49.473" y="0" class="txt1">T</tspan><tspan  y="0" class="txt1">h</tspan><tspan  y="0" class="txt1">e</tspan><tspan  y="0" class="txt1"> </tspan><tspan  y="0" class="txt1">
+</tspan>
+		<tspan x="-142.917" y="66" class="txt1">D</tspan><tspan  y="66" class="txt1">o</tspan><tspan  y="66" class="txt1">w</tspan><tspan  y="66" class="txt1">n</tspan><tspan  y="66" class="txt1">t</tspan><tspan  y="66" class="txt1">r</tspan><tspan  y="66" class="txt1">e</tspan><tspan  y="66" class="txt1">n</tspan><tspan  y="66" class="txt1">d</tspan><tspan  y="66" class="txt1">
+</tspan>
+		<tspan x="-42.73" y="90" class="txt2">s</tspan><tspan  y="90" class="txt2">i</tspan><tspan  y="90" class="txt2">n</tspan><tspan  y="90" class="txt2">c</tspan><tspan  y="90" class="txt2">e</tspan><tspan  y="90" class="txt2"> </tspan><tspan  y="90" class="txt2">2</tspan><tspan  y="90" class="txt2">0</tspan><tspan  y="90" class="txt2">2</tspan><tspan  y="90" class="txt2">1</tspan><tspan  y="90" class="txt2">
+</tspan>
+	</text>
+	<path id="Shape 7" class="shp3" d="M763.99 869.77L758.99 869.88L757.92 819.88L762.92 819.77L763.99 869.77Z" />
+	<path id="Shape 8" class="shp3" d="M763.23 869.03L759.75 872.62L724.71 838.67L728.19 835.08L763.23 869.03Z" />
+	<path id="Shape 2" class="shp3" d="M126.11 260.8L129.89 257.54L267.89 417.54L264.11 420.8L126.11 260.8Z" />
+	<path id="Shape 3" class="shp3" d="M268.14 420.47L263.86 417.88L315.86 331.88L320.14 334.47L268.14 420.47Z" />
+	<path id="Shape 4" class="shp3" d="M316.54 335.2L319.46 331.14L520.46 476.14L517.54 480.2L316.54 335.2Z" />
+	<path id="Shape 5" class="shp3" d="M521.01 479.66L516.99 476.68L577.99 394.68L582.01 397.66L521.01 479.66Z" />
+	<path id="Shape 6" class="shp3" d="M577.66 397.06L582.34 395.28L763.34 872.28L758.66 874.06L577.66 397.06Z" />
+</svg>
