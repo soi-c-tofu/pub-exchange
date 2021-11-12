@@ -8,7 +8,7 @@ import {
   Tabs,
   VStack,
 } from "@chakra-ui/react";
-import React, { FC } from "react";
+import React, { FC, useContext } from "react";
 import { useQuery } from "react-query";
 import { Menu, PubLocation } from "../../api/types";
 import { BreakfastMenu } from "./BreakfastMenu/BreakfastMenu";
@@ -17,6 +17,7 @@ import { DrinkMenu } from "./DrinkMenu/DrinkMenu";
 import { DrinkTab } from "./DrinkTab/DrinkTab";
 import { MainMenu } from "./MainMenu/MainMenu";
 import { MainTab } from "./MainTab/MainTab";
+import { pubMenuContext } from "./PubMenuContext";
 import { SideMenu } from "./SideMenu/SideMenu";
 import { SideTab } from "./SideTab/SideTab";
 import { StarterMenu } from "./StarterMenu/StarterMenu";
@@ -27,15 +28,7 @@ export interface PubMenuProps {
 }
 
 export const PubMenu: FC<PubMenuProps> = ({ setUserAtThisPubLocation }) => {
-  const fetchMenu = async () => {
-    const res = await fetch("/api/menu", {
-      method: "GET",
-    });
-
-    return res.json();
-  };
-
-  const { isLoading, error, data } = useQuery<Menu>("menu", fetchMenu);
+  const { isLoading, error, data } = useContext(pubMenuContext);
 
   if (isLoading) return <Box>Loading...</Box>;
 

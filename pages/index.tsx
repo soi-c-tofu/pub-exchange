@@ -1,23 +1,19 @@
-// import { HamburgerIcon } from "@chakra-ui/icons";
-import {
-  ChakraProvider,
-  Container,
-  // HStack,
-  // IconButton,
-  // Menu,
-  // MenuButton,
-  // MenuList,
-  // VStack,
-} from "@chakra-ui/react";
+import { ChakraProvider, Container } from "@chakra-ui/react";
 import React from "react";
 import { Landing } from "../components/Landing/Landing";
+import { LoginProvider } from "../components/Login/LoginContext";
+import { PubMenuProvider } from "../components/PubMenu/PubMenuContext";
 
 export default function Home() {
   return (
     <ChakraProvider>
-      <Container p={4} maxW="container.lg">
-        <Landing></Landing>
-      </Container>
+      <LoginProvider>
+        <PubMenuProvider>
+          <Container p={4} maxW="container.lg">
+            <Landing></Landing>
+          </Container>
+        </PubMenuProvider>
+      </LoginProvider>
     </ChakraProvider>
   );
 }

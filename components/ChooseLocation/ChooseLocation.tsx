@@ -15,8 +15,6 @@ export const ChooseLocation: FC<ChooseLocationProps> = ({
   userCoordinate,
 }) => {
   const fetchPubLocations = async () => {
-    console.log("userCoordinate: ", userCoordinate);
-
     const res = await fetch("/api/pub", {
       method: "POST",
       body: JSON.stringify(userCoordinate),
